@@ -4,11 +4,15 @@
 - JS es case sensitive
 */
 
+// Variables
 let numeroSecreto = 6;
-let numeroUsuario = prompt("Dime tu numero");
+let numeroUsuario = prompt("Dime tu numero entre 1 y 10");
 
+// Comprobacion de numero agregado
 console.log(numeroUsuario);
 
 if(numeroSecreto == numeroUsuario) {
-    alert("Numero correcto")
+    alert(`El numero correcto es ${numeroSecreto}`)
+} else {
+    alert("Numero incorrecto")
 }
